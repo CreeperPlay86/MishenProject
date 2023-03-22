@@ -17,6 +17,7 @@ public class Damageble : MonoBehaviour
 
     private void Die()
     {
+        Counter.Instance.AddScore();
         Destroy(gameObject);
     }
 }
