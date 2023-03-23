@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    public float timeStart = 60;
+    public float timeStart = 180;
     public TMP_Text timerText;
 
     // Start is called before the first frame update

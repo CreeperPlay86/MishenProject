@@ -17,5 +17,6 @@ public class Spawner_3 : MonoBehaviour
 
         yield return new WaitForSeconds(1);
         Instantiate(prop, new Vector3(-14.088f, Random.Range(4.67f, 7.11f), Random.Range(-4.21f, 1.07f)), Quaternion.Euler(new Vector3(0,0,90)));
+        StartCoroutine(CreateObject());
     }
 }
